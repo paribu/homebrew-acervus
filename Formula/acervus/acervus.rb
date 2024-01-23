@@ -1,8 +1,8 @@
 class Acervus < Formula
   desc "CLI tool for interacting with Acervus Cloud"
   homepage "https://github.com/paribu/acervus-cli"
-  url "https://github.com/paribu/acervus-cli/archive/refs/tags/v0.0.2.tar.gz"
-  sha256 "8fd2e0066603f8afc983cf76176444a2212cfb107f5e6ec1f6eaa8c23fd5fad2"
+  url "https://github.com/paribu/acervus-cli/archive/refs/tags/main.tar.gz"
+  sha256 "96178805695ffb010485caf0ddda9e328870e269fea1a11004283484435021ea"
   head "https://github.com/paribu/acervus-cli.git", branch: "main"
 
   depends_on "go@1.20" => :build
